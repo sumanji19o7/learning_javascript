@@ -6,14 +6,14 @@ let username;
 
 document.getElementById("submitting").onclick = function(){
     username=document.getElementById("text").value;
-    document.getElementById("greeting").textContent = `hello ${username}`
+    document.getElementById("greeting").textContent = `hello ${username}`;
 
 
 }
 
 let age;
 age=window.prompt("enter your age:");
-age=Number(age)
+age=Number(age);
 console.log(age, typeof age);
 
 

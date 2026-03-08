@@ -5,7 +5,7 @@ function rolldice(){
     const values=[];//array with the random values
     const images=[];//array with all the images corresponding to the random values generated
     
-    for (let i = 0 ; i <numdice; i++){
+    for (let i = 0 ; i < numdice; i++){
         const value= Math.floor(Math.random()*6)+1 //loop from 0 to 6
         values.push(value);
         images.push(`<img src="dice${value}.png">`);//pushing the images in array

@@ -16,7 +16,7 @@ decreasing.onclick = function(){
 
 
 resetting.onclick = function(){
-    
+    count=0
     counter.textContent = 0
 }
 

@@ -16,7 +16,7 @@ form{
     margin: auto;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 3px 3px 7px purple;
+    box-shadow: 3px 3px 10px purple;
 }
 
 #textbox{
@@ -24,6 +24,7 @@ form{
     text-align: center;
     font-size: 1.5em;
     border: 3px solid ;
+    background-color: hsl(180, 20%, 68%);
 }
 
 label{

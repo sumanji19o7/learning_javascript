@@ -36,7 +36,7 @@ const passwordlength=12;
 const includelower=true;
 const includeupper=true;
 const includenumbers=false;
-const includesymbols=false;
+const includesymbols=false  ;
 
 const pass=generatepassword(passwordlength,includelower,includeupper,includenumbers,includesymbols);
 console.log(pass)   

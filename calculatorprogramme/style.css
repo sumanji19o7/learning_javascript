@@ -1,0 +1,55 @@
+#calculator{
+    font-family: sans-serif;
+    background-color:aqua;
+    border-radius: 10px;
+    max-width: 500px;
+    overflow: hidden;
+}
+
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;/*for centre in horizontal axis*/
+    height: 100vh;
+    align-items:center; /*for centre in vertical axis after increasing height*/
+}
+
+#display{
+    width: 100%;
+    padding: 25px;
+    font-size: 2.1em;
+    text-align: left;
+    border: none;
+    background-color:hsl(180, 100%, 30%);
+    overflow: hidden;
+    color: azure;
+}
+
+button{
+    width: 100px;;
+    height: 100px;
+    border-radius:50px ;
+    border: none;
+    background-color:hsl(150, 35%, 8%);
+    font-size: 2em;
+    color:darksalmon;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+#keys{
+    display: grid;
+
+    grid-template-columns: repeat(4,1fr);   /*the div section is rendered in a grip pattern with 4 columns*/
+    gap: 15px;
+    padding: 20px;
+}
+
+button:hover{
+    background-color:hsl(150, 35%, 30%);
+}
+
+button:active{
+    background-color:hsl(150, 35%, 30%);
+}

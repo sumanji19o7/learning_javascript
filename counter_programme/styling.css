@@ -5,7 +5,7 @@ body{
     border: 3px solid;
     border-radius: 15px;
 }
-#counter{/*hastag(#) for ids and .*/
+#counter{/*hastag(#) for ids and . for classes*/
     display: block;
     text-align: center;
     font-size: 10em;

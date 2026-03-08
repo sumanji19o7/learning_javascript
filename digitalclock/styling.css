@@ -1,0 +1,24 @@
+body{
+    margin:0;
+    background-color: aquamarine    ;
+
+}
+
+#clock-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    height: 100vh;
+}
+
+#clock{
+    font-family: monospace;
+    font-size: 5rem;
+    font-weight: bold;
+    text-align: center;
+    color:blue;
+    backdrop-filter: blur(10px);
+    background-color: hsl(150, 100%, 75%);
+    width: 100%;
+}
